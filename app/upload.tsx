@@ -56,7 +56,7 @@ const ExcelUploader: React.FC = () => {
         type: file.mimeType || 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
       } as unknown as Blob); // 👈 workaround for RN FormData quirk
 
-      const response = await fetch('https://f0a9-2409-40e4-1007-6b8f-847f-e2f2-c308-7a1a.ngrok-free.app/upload-products/', {
+      const response = await fetch('https://acaa-2409-40e5-1059-b714-154e-f9df-4088-acb1.ngrok-free.app/upload-products/', {
         method: 'POST',
         headers: {
           'Content-Type': 'multipart/form-data',

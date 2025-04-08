@@ -15,7 +15,7 @@ const ProductsList: React.FC = () => {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://f0a9-2409-40e4-1007-6b8f-847f-e2f2-c308-7a1a.ngrok-free.app/products/');
+      const response = await fetch('https://acaa-2409-40e5-1059-b714-154e-f9df-4088-acb1.ngrok-free.app/products/');
       const data: Product[] = await response.json();
       setProducts(data);
     } catch (error) {
